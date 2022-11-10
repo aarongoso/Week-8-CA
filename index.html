@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Graded lab exercise - Week 8</title>
+<script src="external.js" charset="utf-8"></script>
+<link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <script type="text/javascript">
+      var name;
+      name= prompt("enter your name, please...")
+      alert ("hello "+ name);
+    </script>
+
+<button type="button" name="button" onclick="randomNumber();">Click me for Random Number</button>
+<button type="button" name="equation" onclick="promptMe();">Start equation</button>
+
+<h1>Your random number will display below...</h1>
+
+<p id="displayNumber">Use two of the random numbers to create your equation</p>
+
+<script type="text/javascript">
+
+<button id="button" onclick="promptMe()">Start equation</button>
+
+  var number1 = prompt("please enter the first number:");
+var parsednumber1Value = parseInt(number1);
+
+  var number2 = prompt("please enter the second number:");
+var parsednumber2Value = parseInt(number2);
+
+var sum = (parsednumber1Value + parsednumber2Value);
+document.write("The sum of" + parsednumber1Value + "+" + parsednumber2Value + "=" + sum);
+document.write ("<br>")
+alert(sum);
+</script>
+
+<script type="text/javascript">
+function changeStyle() {
+  var myObject = document.getElementById('someDiv');
+  myObject.style.border = "dashed"
+  myObject.style.borderColor = "black"
+  myObject.style.borderWidth = "5px"
+  myObject.style.backgroundColor = "blue"
+}
+
+  function changeStyle() {
+    var myObject = document.getElementById('someDiv');
+    myObject.style.border = "none";
+    myObject.style.backgroundColor = "lightblue";
+  }
+</script>
+
+  </body>
+</html>
