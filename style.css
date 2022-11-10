@@ -1,0 +1,25 @@
+body {background-color: lightblue}
+
+h1 {
+  text-align: center;
+}
+
+p {text-align: center;}
+
+
+button:hover {
+  background-color:#fcc0c0;
+  transition: 0.7s;
+}
+
+.flex-parent {
+  display: flex;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+button.margin-right {
+  margin-right: 20px;
+}
